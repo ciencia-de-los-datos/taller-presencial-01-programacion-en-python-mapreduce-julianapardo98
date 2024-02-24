@@ -116,7 +116,7 @@ def save_output(output_directory, sequence):
 # entregado como parámetro.
 #
 def create_marker(output_directory):
-    with open(output_directory + "/_SUCCES", "w") as file:   #este archivo vacio es para decir que quedo bien
+    with open(output_directory + "/_SUCCESS", "w") as file:   #este archivo vacio es para decir que quedo bien
         file.write("")
 
 #
